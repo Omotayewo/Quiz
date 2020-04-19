@@ -1,0 +1,125 @@
+@import url(http://fonts.googleapis.com/css?family=Rokkitt);
+
+h2{
+    font-family: 'Rokkitt', serif;
+    text-align: center;
+    color: black;
+}
+ul{
+    list-style: none;
+}
+li{
+    font-family: 'Rokkitt', serif;
+    font-size: 15px;
+    color: black;
+}
+input[type=radio]{
+    border: 0px;
+    width: 20px;
+    height: 1em;
+    margin: 10px;
+}
+p{
+    font-family: 'Rokkitt', serif;
+}
+.quizContainer {
+    background-color: lightblue;
+    border-radius: 2%;
+    border: 1px groove white;
+    width: auto;
+    margin: auto;
+    margin-top: 100px;
+    padding-top: 5px;
+    position: relative;
+}
+.nextButton{
+    border-radius: 6px;
+    width: 150px;
+    height: 40px;
+    text-align: center;
+    background-color: #cc0000;
+    color:#fff;
+    font-family: 'Rokkitt', serif;
+    font-weight: bold;
+    position: relative;
+    margin: auto;
+    padding-top: 20px;
+}
+.nextButton:active{
+	background: blue;
+}
+.question{
+    font-family: Times New Roman;
+    font-size: 1em;
+    width: auto;
+    padding: 10px;
+    margin: 20px 0px 0px 0px;
+    border: none;
+    background-color: blue;
+    text-align: center;
+    color: white;
+}
+.quizMessage{
+    background-color: green;
+    border-radius: 6px;
+    width: 50%;
+    margin: auto;
+    text-align: center;
+    padding: 2px;
+    font-family: 'Rokkitt', serif;
+    color: white;
+    margin-bottom: 3px;
+}
+.choiceList {
+    font-family: 'Courier New', Courier, monospace;
+    color: green;
+}
+.result {
+    width: 50%;
+    height: auto;
+    border-radius: 6px;
+    background-color: magenta;
+    margin: auto;
+    margin-bottom: 35px;
+    text-align: center;
+    font-family: 'Rokkitt', serif;
+    color: white;
+}
+body{
+	background-image: linear-gradient(0deg, orange, violet);
+	background-size:cover;
+	background-repeat:no-repeat;
+}
+html{
+	min-height: 100%;
+}
+@media screen and (min-width: 480px) {
+	.quizContainer{
+		margin: 400px 200px 0px 200px;
+		height: 600px;
+	}
+	.question{
+		font-size: 25px;
+		margin-top: 40px;
+	}
+	li{
+		font-size: 30px;
+		margin: 40px;
+		margin-left: 0px;
+	}
+	.nextButton{
+		margin-top: 20px;
+		font-size: 25px;
+	}
+	input[type=radio] {
+		font-size: 20px;
+	}
+	.quizMessage, .result{
+		font-size: 30px;
+		width: 400px;
+	}
+	h2{
+		font-size: 35px;
+		margin-top: 200px;
+	}
+}
